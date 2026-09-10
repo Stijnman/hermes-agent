@@ -1,75 +1,65 @@
-## What does this PR do?
+# Pull Request
 
-<!-- Describe the change clearly. What problem does it solve? Why is this approach the right one? -->
+## 📌 Description
 
+Please provide a clear description of the changes in this PR.
 
+## 🎯 Related Issue
 
-## Related Issue
+Fixes/Closes # (issue number)
 
-<!-- Link the issue this PR addresses. If no issue exists, consider creating one first. -->
+## ⚙️ Changes Made
 
-Fixes #
+- [ ] New feature
+- [ ] Bug fix
+- [ ] Documentation update
+- [ ] Code refactoring
+- [ ] Test addition/improvement
+- [ ] Dependency update
+- [ ] UI/UX improvement
+- [ ] Other: _______________
 
-## Type of Change
+## 📝 Detailed Changes
 
-<!-- Check the one that applies. -->
+- Change 1: Description
+- Change 2: Description
+- Change 3: Description
 
-- [ ] 🐛 Bug fix (non-breaking change that fixes an issue)
-- [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] 🔒 Security fix
-- [ ] 📝 Documentation update
-- [ ] ✅ Tests (adding or improving test coverage)
-- [ ] ♻️ Refactor (no behavior change)
-- [ ] 🎯 New skill (bundled or hub)
+## ✅ Testing
 
-## Changes Made
+Describe how you tested these changes:
 
-<!-- List the specific changes. Include file paths for code changes. -->
+- [ ] Manual testing completed
+- [ ] Automated tests pass
+- [ ] Tested on different browsers
+- [ ] Tested on mobile devices
+- [ ] All links work
+- [ ] No console errors
+- [ ] TypeScript compiles without errors
+- [ ] Linting passes
 
-- 
+## 📎 Screenshots (if applicable)
 
-## How to Test
+Add screenshots showing the changes if relevant.
 
-<!-- Steps to verify this change works. For bugs: reproduction steps + proof that the fix works. -->
+## 📊 Impact
 
-1. 
-2. 
-3. 
+- [ ] Breaking change (requires version bump)
+- [ ] Non-breaking change
+- [ ] Documentation only
+- [ ] API changes
 
-## Checklist
+## 🎫 Checklist
 
-<!-- Complete these before requesting review. -->
+- [ ] Code follows repository guidelines
+- [ ] All tests pass
+- [ ] Documentation updated
+- [ ] No sensitive data included
+- [ ] All links work
+- [ ] Commit messages are clear
+- [ ] Version numbers updated (if applicable)
+- [ ] Dependencies updated (if applicable)
 
-### Code
+---
 
-- [ ] I've read the [Contributing Guide](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md)
-- [ ] My commit messages follow [Conventional Commits](https://www.conventionalcommits.org/) (`fix(scope):`, `feat(scope):`, etc.)
-- [ ] I searched for [existing PRs](https://github.com/NousResearch/hermes-agent/pulls) to make sure this isn't a duplicate
-- [ ] My PR contains **only** changes related to this fix/feature (no unrelated commits)
-- [ ] I've run `pytest tests/ -q` and all tests pass
-- [ ] I've added tests for my changes (required for bug fixes, strongly encouraged for features)
-- [ ] I've tested on my platform: <!-- e.g. Ubuntu 24.04, macOS 15.2, Windows 11 -->
-
-### Documentation & Housekeeping
-
-<!-- Check all that apply. It's OK to check "N/A" if a category doesn't apply to your change. -->
-
-- [ ] I've updated relevant documentation (README, `docs/`, docstrings) — or N/A
-- [ ] I've updated `cli-config.yaml.example` if I added/changed config keys — or N/A
-- [ ] I've updated `CONTRIBUTING.md` or `AGENTS.md` if I changed architecture or workflows — or N/A
-- [ ] I've considered cross-platform impact (Windows, macOS) per the [compatibility guide](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#cross-platform-compatibility) — or N/A
-- [ ] I've updated tool descriptions/schemas if I changed tool behavior — or N/A
-
-## For New Skills
-
-<!-- Only fill this out if you're adding a skill. Delete this section otherwise. -->
-
-- [ ] This skill is **broadly useful** to most users (if bundled) — see [Contributing Guide](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#should-the-skill-be-bundled)
-- [ ] SKILL.md follows the [standard format](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#skillmd-format) (frontmatter, trigger conditions, steps, pitfalls)
-- [ ] No external dependencies that aren't already available (prefer stdlib, curl, existing Hermes tools)
-- [ ] I've tested the skill end-to-end: `hermes --toolsets skills -q "Use the X skill to do Y"`
-
-## Screenshots / Logs
-
-<!-- If applicable, add screenshots or log output showing the fix/feature in action. -->
-
+**Note**: By submitting this pull request, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
