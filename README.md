@@ -215,3 +215,7 @@ scripts/run_tests.sh
 MIT — see [LICENSE](LICENSE).
 
 Built by [Nous Research](https://nousresearch.com).
+
+## Flagship integration
+
+This project remains independently usable and is not deprecated. Its capabilities are also consumed by [AetherOS](https://github.com/Stijnman/AetherOS), where they are integrated with complementary repositories behind shared platform contracts. This repository remains the source of truth for its component-specific implementation.
